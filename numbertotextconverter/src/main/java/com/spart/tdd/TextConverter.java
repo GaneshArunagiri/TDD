@@ -2,8 +2,8 @@ package com.spart.tdd;
 
 public class TextConverter {
 
-	public Object ConvertToText(int i) {
-		return null;
+	public String ConvertToText(int i) {
+		return "one";
 	}
 
 }
