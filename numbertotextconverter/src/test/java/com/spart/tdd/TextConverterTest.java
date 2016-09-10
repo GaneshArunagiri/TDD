@@ -11,5 +11,12 @@ public class TextConverterTest {
 		TextConverter converter=new TextConverter();
 		assertEquals("one",converter.ConvertToText(1));
 	}
+	
+	@Test
+	public void testNumberTwoToText() {
+		TextConverter converter=new TextConverter();
+		assertEquals("two",converter.ConvertToText(2));
+	}
+	
 
 }
